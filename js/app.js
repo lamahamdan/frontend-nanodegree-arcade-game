@@ -1,4 +1,5 @@
 
+
 // Add some sound to the game
 var mySound = new sound("images/whack.mp3");
 var winSound = new sound("images/win.mp3");
@@ -134,7 +135,7 @@ var increaseDifficulty = function(numEnemies) {
     for (var i = 0; i <= numEnemies; i++) {
         var enemy = new Enemy(0, Math.random() * 184 + 50, Math.random() * 256);
 
-        allEnemies.push(enemy);
+      allEnemies.push(enemy);
     }
 };
 
